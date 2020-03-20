@@ -20,3 +20,5 @@ int main()
 //                  then 
 // to run the created .exe file after it has been created 1)Ctrl + Alt + F5
 //                                                         2)Terminal -> Run Task -> Run C++ file
+
+// proper formatting = sht + alt + f
