@@ -22,3 +22,4 @@ int main()
 //                                                         2)Terminal -> Run Task -> Run C++ file
 
 // proper formatting = sht + alt + f
+// to open definitions about something ,  hover onto that , use right click , go to definition
