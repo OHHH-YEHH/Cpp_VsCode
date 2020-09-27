@@ -494,5 +494,12 @@ int main() {
     // Single line to output for Collections / array
 	copy(a,a+size_of_ar,ostream_iterator<int>(cout , " "));
 
+
+	// How to convert vector char to string 
+	std::vector<char> input({ 'a', 'b', 'c' });
+
+	std::string s(input.begin(), input.end());
+	std::cout << s;
+
 	return 0;
 }
