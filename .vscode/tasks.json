@@ -1,21 +1,27 @@
 {
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "label": "Compile C++ file",
-            "type": "shell",
-            "command": "g++",
-            "args": [
-                "-g",
-                "${file}",
-                "-o",
-                "${workspaceRoot}\\${fileBasenameNoExtension}.exe"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
-        } ,
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Compile C++ file",
+			"type": "shell",
+			"command": "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe",
+			"args": [
+				"-g",
+				"${file}",
+				"-o",
+				"${workspaceRoot}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+			} ,
         {
             "label": "Run C++ file",
             "type": "shell",
@@ -24,8 +30,8 @@
                 "kind": "test",
                 "isDefault": true
             }
-        }   
-        
-       
-    ]
+		}
+
+
+	]
 }
